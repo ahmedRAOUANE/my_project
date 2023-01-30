@@ -1,0 +1,65 @@
+.md-recharge-internet.roaming.clovis .section-title{
+    background: #592ad7;
+}
+.md-recharge-internet.roaming.clovis .section-content {
+    background: #6912ca;
+    background: -moz-linear-gradient(-45deg, #6912ca 0%, #2673fb 99%);
+    background: -webkit-linear-gradient(-45deg, #6912ca 0%,#2673fb 99%);
+    background: linear-gradient(135deg, #6912ca 0%,#2673fb 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6912ca', endColorstr='#2673fb',GradientType=1 );
+}
+
+.md-recharge-internet.roaming.clovis .section-content.transfert-hp .pull-left.visible-xs{
+    width: 100%;
+    max-height: 80px;
+    display: block;
+    height: 80px;
+    background-position: center;
+}
+.md-recharge-internet.roaming.clovis .section-content.transfert-hp .fullWidthCard .cardInfo p {
+    border-left: 2px solid #2b9cb5;
+    padding-left: 5px;
+	margin-bottom: 21px;
+    margin-top: 10px;
+	font-size: 1.1em;
+}
+.md-recharge-internet.roaming.clovis .section-content.transfert-hp .fullWidthCard .cardInfo p span.red-span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ed1c24;
+}
+.md-recharge-internet.roaming.clovis .section-content.transfert-hp .fullWidthCard .cardInfo p .validity {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.md-recharge-internet.roaming.clovis .section-content .fullWidthCard .cardInfo h3 {
+    color: #ed1c24;
+    font-size: 3.2em;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.md-recharge-internet.roaming.clovis .section-content .fullWidthCard .cardInfo .btn {
+    border-radius: 8px;
+    padding: 2px 20px;
+    background: #ed1c24;
+    color: #fff;
+    box-shadow: inset 1px 1px 3px 1px #2222222e;
+	margin:0 3px;
+}
+.md-recharge-internet.roaming.clovis .section-content .fullWidthCard .cardInfo .btn.annuler{
+    background: #2b2b2b;
+}
+.md-recharge-internet.roaming.clovis .section-content .container .row .fullWidthCard .price-unit {
+    font-weight:bold;
+}
+.md-my-account .section-content .my-account-container .my-account-holder .holder-content .holder-content-inner .credit-info a.maxy-boost {
+    background-image: url(../images/clovis/icons/illimit.png);
+}
+@media (max-width: 767px){
+.md-recharge-internet.roaming.clovis .section-content .fullWidthCard .cardInfo .btn {
+    line-height: 10px;
+    padding: 16px 15px 29px 15px;
+	margin: 6px 0;
+}
+
+}

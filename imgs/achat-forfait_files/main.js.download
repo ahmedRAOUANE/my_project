@@ -1,0 +1,262 @@
+/**
+ * Mdsoft INT
+ *
+ * @category    Front end
+ * @package     Main js
+ * @copyright   Copyright (c) 2016 MDWEB. (http://www.mdweb-int.com)
+ * @author      BESSROUR Ahmed (ahmed.bessrour@gmail.com)
+ */
+
+
+var $ = jQuery.noConflict();
+
+/* =========================================================
+modal chargement
+============================================================ */
+window.onload=function(){
+   $('#modalFR').modal('show');
+}
+
+
+/* =========================================================
+ Back to top
+ ============================================================ */
+$(".back-top").hide();
+// fade in #back-top
+$(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('.back-top').fadeIn();
+        } else {
+            $('.back-top').fadeOut();
+        }
+        
+    });
+    
+    /* =========================================================
+    Hide Menu on scroll down show on scroll up
+    ============================================================ */
+  
+ 	var prevScrollpos = window.pageYOffset;
+ 	var headerTop = 0;
+ 	
+ 	window.onscroll = function(){
+ 		if(headerTop > 0) headerTop = 0;
+ 		if(headerTop < -80) headerTop = -80;
+ 		var currentScrollpos = window.pageYOffset;
+ 		if(prevScrollpos > currentScrollpos){
+ 			$( ".header" ).css( "transition", "top 0.5s" );
+ 		}else{
+ 			$( ".header" ).css( "transition", "none" );
+ 		}
+ 		$( ".header" ).css( "top", headerTop );
+ 		headerTop += prevScrollpos - currentScrollpos;
+ 		prevScrollpos = currentScrollpos;
+ 	}   
+
+    // scroll body to 0px on click
+    $('.back-top a').click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+    
+    // Bouton de transfert Internet
+	var box_choisi_bg = "background:rgb(255,246,0)";
+	var achat_fr = "Acheter";
+	var choisi_fr = "Choisi";
+	var achat_ar = "شـراء";
+	$('.transfert-data .action>.btn-custom').attr('href', 'javascript: return false;');
+
+	$('.transfert-data .btn-custom.checked').closest("div.fullWidthCard").attr("style",box_choisi_bg);
+	$('.transfert-data .btn-custom').click(function() {
+	
+	if ( $('body').hasClass( "ar" ) ) {
+		$('.btn-custom.checked').html('<i class="fa fa-shopping-cart" aria-hidden="true"></i>'+achat_ar); 
+    }else{
+    	$('.btn-custom.checked').html('<i class="fa fa-shopping-cart" aria-hidden="true"></i>'+achat_fr);
+	}
+	
+	$("div.fullWidthCard").attr("style","background:");
+	$(".action>.btn-custom.checked").removeClass("checked");	
+	$(this).addClass("checked");
+	if ( $('body').hasClass( "ar" ) ) {
+		$(this).html('<i class="fa fa-check" aria-hidden="true"></i>'+achat_ar); 
+    }else{
+    	$(this).html('<i class="fa fa-check" aria-hidden="true"></i>'+choisi_fr);
+	}
+		$(this).closest("div.fullWidthCard").attr("style",box_choisi_bg);
+	})
+});
+
+
+/* =========================================================
+Numbers only
+ ============================================================ */
+function numbersOnly(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+
+
+/* =========================================================
+    Header
+ ============================================================ */
+
+//$(".header").sticky({
+//    topSpacing: 0
+//});
+
+$('.current').on('click', function(e) {
+    e.preventDefault();
+    $("body").toggleClass("toggled");
+})
+
+
+/* =========================================================
+    My account collapse
+ ============================================================ */
+if (jQuery('.md-my-account').length) {
+    $('.collapseTrigger').on('click', function(e) {
+        e.preventDefault();
+        $('.expandable').toggleClass('active');
+        $('.my-account-container').toggleClass('expandeffect');
+        $('.collapseTrigger').toggleClass('active');
+
+
+        if($('body').hasClass('ar')){
+            if($('.collapseTrigger').text() === "المزيد من التفاصيل"){
+                $('.collapseTrigger').text("رجوع")
+                $('.expandTiggerIcon img').attr('src' , 'images/icons/arrow.png');
+            }else{
+                $('.collapseTrigger').text("المزيد من التفاصيل");
+                $('.expandTiggerIcon img').attr('src' , 'images/icons/plus.png');
+            }
+        }else{
+            if($('.collapseTrigger').text() === "Voir tous les détails"){
+                $('.collapseTrigger').text("Retour")
+                $('.expandTiggerIcon img').attr('src' , 'images/icons/arrow.png');
+            }else{
+                $('.collapseTrigger').text("Voir tous les détails");
+                $('.expandTiggerIcon img').attr('src' , 'images/icons/plus.png');
+            }
+        }
+        if($('.collapseTrigger').not('active')){
+            $('body,html').animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        }
+
+    });
+};
+
+
+/* =========================================================
+    My account collapse
+ ============================================================ */
+/*
+if (jQuery('.md-number-validation').length) {
+
+    $('#validationForm').formValidation({
+        framework: 'bootstrap',
+        icon: {
+            valid: 'fa fa-check',
+            invalid: 'fa fa-times',
+            validating: 'fa fa-refresh'
+        },
+        err: {
+            container: 'popover'
+        },
+        fields: {
+            number: {
+                validators: {
+                    notEmpty: {
+                        message: "saisir votre numéro"
+                    },
+                    regexp: {
+                        regexp: '^0(5)[0-9]{8}$',
+                        message: "(05)xxxxxxxx"
+                    }
+                }
+            }
+        }
+    }).on('success.form.fv', function(e) {
+        e.preventDefault();
+        $('.validation').fadeOut('fast', function() {
+            $('.confiramation').fadeIn();
+        });
+
+    });
+    $('#confiramationForm').formValidation({
+        framework: 'bootstrap',
+        icon: {
+            valid: 'fa fa-check',
+            invalid: 'fa fa-times',
+            validating: 'fa fa-refresh'
+        },
+        err: {
+            container: 'popover'
+        },
+        fields: {
+            cNumber: {
+                validators: {
+                    notEmpty: {
+                        message: "Ce champ est obligatoire"
+                    }
+                }
+            }
+        }
+    }).on('success.form.fv', function(e) {
+        e.preventDefault();
+        alert('Achat valider');
+    });
+};
+*/
+
+
+ 
+$(function() {
+//	console.log('--qsdqsd')
+    /**
+     * HEIGHT AUTO
+    ============================================================================================== */
+    heightAuto();
+
+    $bgColor = $('#main-content section:last-child .section-content').css('background-color');
+
+    function heightAuto() {
+        height = $(window).height() - 125;
+    }
+
+    $('#main-content').css('min-height', height).css({
+        'min-height': height,
+        'background': $bgColor
+    });
+  //  console.log(height)
+	heightAuto();
+	var maxHeight = 0;
+    function heightUnify(divClass,width,padding){
+		if($(window).width() >width-16){		
+		$(divClass).each(function(){
+			if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+		});
+		$(divClass).css("min-height", maxHeight+padding); // 30 est relative au Padding
+		}else{
+		$(divClass).css("min-height", "inherit"); // 30 est relative au Padding
+		}
+		//console.log($(window).width());		
+	}
+	
+	heightUnify(".my-account-holder",990,36);
+	
+	$(window).resize(function() {
+		heightUnify(".my-account-holder",990,36);
+	});
+
+});

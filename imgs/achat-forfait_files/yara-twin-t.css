@@ -1,0 +1,94 @@
+.twin-t .md-my-account .section-content .my-account-container .my-account-holder .holder-content .holder-content-inner .credit-info a.yara-dash {
+    background-image: url(../images/icons/yara.png);
+}
+
+@media (min-width: 1200px){
+
+.twin-t .md-recharge-internet.roaming.internet .section-content.transfert-hp .change .fullWidthCard .cardInfo.col-lg-6{
+	width : 40%;
+	
+}
+}
+.twin-t .md-recharge-internet.roaming.babour .section-content{
+	background : #525b6f;
+
+}
+
+.twin-t .md-recharge-internet.roaming.babour .section-title{
+	background : #394358;
+}
+
+.twin-t .md-recharge-internet.roaming.babour .section-content.transfert-hp .change .fullWidthCard, .twin-t .md-recharge-internet.roaming.babour .fullWidthCard .col-lg-7{
+	padding : 0;
+	margin : 0
+}
+
+.twin-t .md-recharge-internet.roaming.babour .fullWidthCard .col-lg-7 img{
+	width: 100%;
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .fullWidthCard .cardInfo p.dima-bonus {
+    background: #ffee58;
+    margin: auto 3%;
+    border-radius: 6px;
+    font-size: 1.1em;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 3px 0px;
+}
+
+.twin-t .md-recharge-internet.roaming.internet .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.yt-title-bold {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: #ed1c24;
+}
+
+.twin-t .md-recharge-internet.roaming.internet .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.yt-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #ed1c24;
+}
+
+.twin-t .md-recharge-internet.roaming.internet .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.title {
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
+.twin-t .md-recharge-internet.roaming .yara.transfert-hp .change .fullWidthCard .cardInfo a {
+    width: 94%;
+    position: inherit;
+    bottom: 10px;
+    left: 0;
+}
+
+.twin-t.ar .md-recharge-internet.roaming .yara.transfert-hp .change .fullWidthCard .cardInfo a {
+    left: 3%;
+}
+
+.twin-t .md-recharge-internet.roaming .yara .fullWidthCard .cardInfo .btn, .getty .md-forfait-internet .yara .cardInfo .cardBottom .buy .action .btn {
+    border: 3px solid #fcdae4;
+    border-radius: 25px;
+    padding: 2px 20px;
+    background: #ed1c24;
+    color: #fff;
+    box-shadow: inset 1px 1px 3px 1px #22222252;
+    margin-top: 24%;
+}
+
+.twin-t .md-recharge-internet.roaming .yara.transfert-hp .change .fullWidthCard .cardInfo p {
+    border: none;
+    line-height: inherit;
+}
+
+
+@media (max-width: 1199px){
+	.twin-t .md-recharge-internet.roaming.internet.babour .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-amounts {
+    min-height: 160px;
+    padding-top: 10px;
+}
+	.twin-t .md-recharge-internet.roaming.internet.babour .section-content.transfert-hp .change .fullWidthCard .cardInfo a {
+    margin-bottom: 10px;
+}
+
+
+}

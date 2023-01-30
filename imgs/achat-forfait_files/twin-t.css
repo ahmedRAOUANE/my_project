@@ -1,0 +1,280 @@
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard{
+	padding-bottom: 10px;
+    position: relative;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo{
+	width:100%;
+	text-align:center;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-amounts{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p{
+	border:none;
+	line-height: 1em;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p img{
+	max-height: 120px;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo a{
+	width:94%;
+    position: absolute;
+    bottom: 10px;
+    left: 3%;
+}
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo h3{
+	/*margin-top:10px;*/
+	margin-bottom:0;
+}
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard.night .cardInfo p span.title{
+	color: #fff;
+}
+
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo p.price{
+	margin-top: 11px;
+    color: #ed1c24;
+    font-size: 3em;
+    font-family: ooredoobold;
+    line-height: 1em;
+}
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard.night .cardInfo h3.price{
+	
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p span {
+    vertical-align: middle;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.yt-title {
+	font-size: 1.6em;
+    font-weight: bold;
+    color: #ed1c24;
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .col-lg-4{
+	margin-bottom: 15px;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .pull-left.visible-xs{
+    width: 100%;
+    max-height: 80px;
+    display: block;
+    height: 80px;
+    background-position: center;
+}
+.twin-t .md-recharge-internet.roaming.internet .section-content{
+background: #40c4ff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #40c4ff 0%, #0091ea 93%, #0091ea 93%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #40c4ff 0%,#0091ea 93%,#0091ea 93%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #40c4ff 0%,#0091ea 93%,#0091ea 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40c4ff', endColorstr='#0091ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */	
+}
+.twin-t .md-recharge-internet.roaming.internet .section-title {
+    background: #0288d1;
+}
+
+
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo .btn, .twin-t .md-forfait-internet .section-content .cardInfo .cardBottom .buy .action .btn {
+    border-width: 1px;
+    border-color: #ed1c24;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 2px 20px;
+    background: #ed1c24;
+    color: #fff;
+    box-shadow: 0 4px #b10106;
+	font-size:1.2em;
+}
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo a.btn:hover, .twin-t .md-forfait-internet .section-content .cardInfo .cardBottom .buy .action a.btn:hover, .twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo a.btn:focus, .twin-t .md-forfait-internet .section-content .cardInfo .cardBottom .buy .action a.btn:focus {
+    box-shadow: 0 2px #b10106;
+	bottom: 8px;
+	transition: all .1s ease-out;
+}
+.btn-custom:hover:before{
+	display:none;
+}
+.twin-t .md-recharge-internet.roaming .section-content .change .fullWidthCard {
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6);
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.amount {
+    font-family: ooredoobold;
+    font-size: 2em;
+    color: #ed1c24;
+    line-height: 1.2em;
+}
+.twin-t .md-recharge-internet.roaming .section-content .change .fullWidthCard.week{
+	   background: url(../images/twin-t/week.svg);
+    background-size: cover;
+	
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo h3 {
+    color: #ed1c24;
+    font-size: 2.5em;
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard.night .cardInfo p.blc-line, .twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard.night .cardInfo p .amount{
+	color:#fff;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .fullWidthCard .cardInfo p .validity {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p span.plus {
+	font-size:1.5em;
+	margin:0;
+	line-height:1em;
+	font-weight: bold;
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard.night{
+	background: #151845;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard.vendredi{
+	background: #f4e9d3;
+}
+
+.twin-t .md-my-account .section-content .my-account-container .my-account-holder .holder-content .holder-content-inner .credit-info a.dash-img {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.twin-t .md-recharge-internet.roaming .section-content .container .row .fullWidthCard .price-unit {
+font-weight:bold;
+}
+.twin-t .md-recharge-internet.roaming.haya .section-title {
+    background: #f6f1ed;
+}
+.md-recharge-internet.roaming.haya .section-title .title h1 {
+    color: #3c3c3c;
+}
+.twin-t .md-recharge-internet.roaming.haya .section-content{
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to bottom, #fdfcfb , #e2d1c3);
+    background: linear-gradient(to bottom, #fdfcfb , #e2d1c3);
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-amounts p.free-call{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+@media (max-width: 479px){
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change{
+	margin-bottom:15px;
+}
+
+}
+
+@media (min-width: 1200px){
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard {
+    padding-bottom: 10px;
+    position: relative;
+    min-height: 315px;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-amounts{
+	min-height: 135px;
+    max-height: 185px;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-valid-price {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+}
+}
+
+@media (max-width: 1199px){
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-valid-price{
+    padding: 5px 0 35px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-top: 4px;
+	border-top: 1px solid #f5f5f5aa;
+	box-shadow: 0px -4px 8px -7px #2222229e
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo p.blc-line.validity {
+    margin-top:0;
+	display: flex;
+    flex-direction: column;
+}
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .change .fullWidthCard .cardInfo a {
+	padding-top: 8px;
+    padding-bottom: 33px;
+}
+.twin-t .md-recharge-internet.roaming .section-content .fullWidthCard .cardInfo p.price {
+    margin-top: 6px;
+}
+
+}
+/****************  AR  *****************/
+
+.ar.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .fullWidthCard .cardInfo p .validity{
+	font-family : ooredoobold;
+	
+}
+
+
+/* *********************        NEW    22/03/2020     *******************/
+
+@media (min-width: 1200px){
+.twin-t .md-recharge-internet.roaming.f-internet .section-content.transfert-hp .change .fullWidthCard {
+    min-height: 253px;
+}
+.twin-t .md-recharge-internet.roaming.f-internet	 .section-content.transfert-hp .change .fullWidthCard .cardInfo .box-amounts {
+    min-height: 75px;
+    max-height: 75px;
+}
+
+
+}
+.twin-t .md-recharge-internet.roaming.f-internet .section-content.transfert-hp .change .fullWidthCard .new{
+
+    background: #fee715ff;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ed1C24;
+    text-align: center;
+
+}
+.strikethrough {
+  position: relative;
+  margin-left: 8px;
+    color: #575757;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+  
+  
+}
+
+.twin-t .md-recharge-internet.roaming .section-content.transfert-hp .fullWidthCard .cardInfo p.dima-bonus {
+    background: #ffee58;
+    margin: auto 3%;
+    border-radius: 6px;
+    font-size: 1.1em;
+    margin-bottom: 3px;
+    padding: 3px 0px;
+}

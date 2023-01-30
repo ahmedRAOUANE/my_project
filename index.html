@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>achat-forfait</title>
+    <link rel="icon" href="imgs/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normelize.css" />
+    <link rel="stylesheet" href="bootstrap-css/bootstrap.min.css" />
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-between">
+          <a
+            href="/"
+            class="brand d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="imgs/choof.svg" alt="" />
+          </a>
+
+          <i class="fas fa-search d-block d-md-none"></i>
+
+          <form
+            class="search-form d-none d-md-block p-2 col-4 col-lg-auto mb-3 mb-lg-0 me-lg-3 rounded-pill d-flex align-items-center text-black"
+            role="search"
+          >
+            <input
+              type="search"
+              class=""
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <i class="fas fa-search"></i>
+          </form>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-dark sticky-top" aria-label="navbar">
+      <div class="container justify-content-center">
+        <span
+          class="home-btn text-light mx-3 p-md-3 active"
+          aria-current="home"
+          href=""
+          >Home</span
+        >
+        <span
+          class="my-account-btn text-light mx-3 p-md-3"
+          aria-current="account"
+          href=""
+          >my account</span
+        >
+        <span
+          class="settings-btn text-light mx-3 p-md-3"
+          aria-current="settings"
+          href=""
+          >settings</span
+        >
+      </div>
+    </nav>
+
+    <div class="site-body d-flex">
+      <section class="home active w-100 position-relative" id="home">
+        <div class="kaspersky">
+          <h2 class="main-title text-light text-uppercase px-3 p-2 my-3">
+            kaspersky offre
+          </h2>
+          <div class="box container row mx-auto p-0">
+            <div class="fs-5 col-12 col-md-6 mb-4">
+              <div class="card m-0 p-0">
+                <h3
+                  class="card-title position-absolute end-0 text-end px-3 my-4 pull-right"
+                >
+                  Kaspersky Internet Security
+                </h3>
+                <img class="img-fluid pull-left" src="imgs/kis.png" alt="" />
+                <div class="card-body lh-lg">
+                  <p class="card-text">
+                    <span class="amount">fast</span> and
+                    <span class="amount">flexible</span>
+                    security solution that discreetly protects your data and
+                    privacy. Protection on
+                    <span class="amount text-uppercase"
+                      >pc, mac and android</span
+                    >
+                    that lasts up to <span class="amount">1 year</span>
+                  </p>
+                  <p class="fw-bold fs-4">
+                    from
+                    <span class="amount price"
+                      >200 <sup class="text-uppercase">da</sup></span
+                    >
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill">
+                      <i class="fas fa-shopping-cart"></i>
+                      discover
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fs-5 col-12 col-md-6 mb-4">
+              <div class="card m-0 p-0">
+                <h3
+                  class="card-title position-absolute end-0 text-end px-3 my-4 pull-right"
+                >
+                  Kaspersky Safe Kids
+                </h3>
+                <img class="img-fluid pull-left" src="imgs/kfk.png" alt="" />
+                <div class="card-body lh-lg">
+                  <p class="card-text">
+                    Designed to help you <span class="amount">watch</span> over
+                    <span class="amount">your children</span> online and off,
+                    <b>manage</b> their <b> interner usage</b> and
+                    <b>block access to inappropriate </b>
+                    websites and content
+                  </p>
+                  <p class="fw-bold fs-4">
+                    from
+                    <span class="amount price"
+                      >150 <sup class="text-uppercase">da</sup></span
+                    >
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill">
+                      <i class="fas fa-shopping-cart"></i>
+                      discover
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="babor">
+          <h2 class="main-title text-light text-uppercase px-3 p-2 mt-3 my-0">
+            babour ellouh
+          </h2>
+          <div class="p-2">
+            <div
+              class="container mx-auto my-4 row border rounded p-0 flex-nowrap flex-column flex-lg-row bg-white"
+            >
+              <div class="col-12 col-lg-7 p-0">
+                <img class="img-fluid w-100" src="imgs/babour.jpg" alt="" />
+              </div>
+              <div class="text-bold col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0">babour ellouh</h3>
+                <div class="mb-1">500da seulement</div>
+                <p class="card-text mb-auto">
+                  Regardez toute la série Babour ellouh, en exclusivité avec
+                  <img src="imgs/ooredoo-small.svg" alt="" />
+                </p>
+                <a
+                  href="#"
+                  class="main-btn btn btn-secondary rounded-pill stretched-link mt-5"
+                >
+                  Regardez mentenant
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="forfait-smart">
+          <h2 class="main-title text-black text-uppercase px-3 p-2 my-3">
+            SMART PACKAGE
+          </h2>
+          <div class="container">
+            <div class="row">
+              <div class="col col-12 col-md-4">
+                <div class="card text-center p-3">
+                  <h3 class="card-title">
+                    <span class="amount">30 Mins</span> <br />
+                    to Ooredoo <br />
+                    +<br />
+                    <b class="amount">200 MB</b>
+                  </h3>
+                  <span class="text-bold fs-4">
+                    valid 24 Houers <br />
+                    <span class="amount price text-bold">50 <sup>DA</sup></span>
+                  </span>
+                  <button class="main-btn btn btn-secondary rounded-pill">
+                    <i class="fas fa-shopping-cart"></i>
+                    buy now
+                  </button>
+                </div>
+              </div>
+              <div class="col col-12 col-md-4">
+                <div class="card text-center p-3">
+                  <h3 class="card-title">
+                    <span class="amount">unlimited calls</span> <br />
+                    to Ooredoo <br />
+                    +<br />
+                    <b
+                      ><span class="amount"> 100<sup>DA</sup></span> credit
+                      <span class="amount">+ 500MB</span></b
+                    >
+                    <br />
+                    + <br />
+                    <img src="imgs/fb-msn.svg" alt="" />
+                    <span class="amount">unlimited</span>
+                  </h3>
+                  <span class="text-bold fs-4">
+                    valid 24 Houers <br />
+                    <span class="amount price text-bold">50 <sup>DA</sup></span>
+                  </span>
+                  <button class="main-btn btn btn-secondary rounded-pill">
+                    <i class="fas fa-shopping-cart"></i>
+                    buy now
+                  </button>
+                </div>
+              </div>
+              <div class="col col-12 col-md-4">
+                <div class="card text-center p-3">
+                  <h3 class="card-title">
+                    <span class="amount">30 Mins</span> <br />
+                    to Ooredoo <br />
+                    +<br />
+                    <b class="amount">200 MB</b>
+                  </h3>
+                  <span class="text-bold fs-4">
+                    valid 24 Houers <br />
+                    <span class="amount price text-bold">50 <sup>DA</sup></span>
+                  </span>
+                  <button class="main-btn btn btn-secondary rounded-pill">
+                    <i class="fas fa-shopping-cart"></i>
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="forfait-international">
+          <h2 class="main-title text-light text-uppercase px-3 p-2 my-3">
+            international package
+          </h2>
+          <div class="container">
+            <div class="row text-bold">
+              <div class="col col-12 col-lg-4 mb-4">
+                <div class="card p-3">
+                  <div class="d-flex justify-content-between">
+                    <span class="fs-2">1<sup>H</sup></span>
+                    <div class="text-black-50">
+                      <span class="fs-2">10 <sup>DA</sup></span>
+                      <span>per minute</span>
+                      <p>Towards the internationa</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <span class="fs-3">100 <sup>DA</sup></span>
+                    <button class="main-btn btn btn-secondary rounded-pill">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-12 col-lg-4 mb-4">
+                <div class="card p-3">
+                  <div class="d-flex justify-content-between">
+                    <span class="fs-2">24<sup>H</sup></span>
+                    <div class="text-black-50">
+                      <span class="fs-2">10 <sup>DA</sup></span>
+                      <span>per minute</span>
+                      <p>Towards the internationa</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <span class="fs-3">200 <sup>DA</sup></span>
+                    <button class="main-btn btn btn-secondary rounded-pill">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-12 col-lg-4 mb-4">
+                <div class="card p-3">
+                  <div class="d-flex justify-content-between">
+                    <span class="fs-2">7<sup>D</sup></span>
+                    <div class="text-black-50">
+                      <span class="fs-2">10 <sup>DA</sup></span>
+                      <span>per minutes</span>
+                      <p>Towards the internationa</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3">
+                    <span class="fs-3">1000 <sup>DA</sup></span>
+                    <button class="main-btn btn btn-secondary rounded-pill">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="special-roaming">
+          <h2 class="main-title text-light text-uppercase px-3 p-2 mt-3 my-0">
+            special roaming
+          </h2>
+          <div class="p-2">
+            <div
+              class="card container mx-auto my-4 row border rounded p-0 flex-nowrap flex-column flex-lg-row bg-white"
+            >
+              <div class="col-12 col-lg-7 p-0">
+                <img
+                  class="img-fluid h-100 w-100"
+                  src="imgs/roaming-min.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-bold col p-4 d-flex flex-column position-static">
+                <p class="card-text mb-auto fs-5">
+                  Thanks to the <span class="amount">new Roaming plans</span>,
+                  benefit from many advantages ranging up to:
+                </p>
+                <div class="roamingDesc">
+                  <p class="">
+                    <span class="text-uppercase fs-3">1gb</span> of internet
+                  </p>
+                  <p class="">
+                    <span class="text-uppercase fs-3">Unlimited Calls</span> to
+                    Ooredoo aslgeria
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="main-btn btn btn-secondary rounded-pill stretched-link mt-5"
+                >
+                  Regardez mentenant
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="free-facebook">
+          <h2 class="main-title text-light text-uppercase px-3 p-2 mt-3 my-0">
+            free facebook
+          </h2>
+          <div class="p-2">
+            <div
+              class="card container mx-auto my-4 row border rounded p-0 flex-nowrap flex-column flex-lg-row bg-white"
+            >
+              <div class="imge col-md-4 d-flex align-items-center">
+                <img class="img-fluid" src="imgs/facebook.png" alt="" />
+              </div>
+              <div class="text-bold col p-4">
+                <h3>Facebook free and unlimitedFacebook free and unlimited</h3>
+                <p class="card-text mb-auto fs-5">
+                  Comment, share and follow the news on facebook
+                  <span class="text-bold">for frtee</span>
+                </p>
+                <div class="d-flex mt-3 justify-content-end">
+                  <button class="main-btn btn btn-secondary rounded-pill">
+                    discover more!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer text-center bg-dark text-light p-4">
+          <p>&copy; Copyright 2021 Ooredoo</p>
+        </div>
+      </section>
+
+      <section class="myAccount position-relative" style="left: 100%;" id="myAccount">
+        <div class="my-account mb-5">
+          <h2 class="main-title text-black text-uppercase px-3 p-2 my-3">
+            my account
+          </h2>
+          <div class="container">
+            <div class="row fs-5">
+              <div class="col col-12 col-lg-4">
+                <div class="card text-center p-3">
+                  <h3 class="card-title text-capitalize">credit</h3>
+                  <div class="content text-bold">
+                    <div class="row p-2 w-100 m-auto">
+                      <div class="col-6 text-capitalize text-start p-0">
+                        credit total:
+                      </div>
+                      <div class="col-6"><span>2000</span> <sup>DA</sup></div>
+                    </div>
+                    <div class="p-2">
+                      <div class="text-capitalize text-start">
+                        credit (maxy):
+                      </div>
+                      <div class="row align-items-center p-2">
+                        <div class="progressBar col-8">
+                          <span class="progressPercentage greenbar"></span>
+                        </div>
+                        <div class="col-4"><span>1000</span><sup>DA</sup></div>
+                      </div>
+                    </div>
+                    <div class="row p-2">
+                      <div class="col-6 text-capitalize">rechage credit:</div>
+                      <div class="col-6"><span>2000</span> <sup>DA</sup></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-12 col-lg-4">
+                <div class="card text-center p-3">
+                  <h3 class="card-title text-capitalize">internet</h3>
+                  <div class="content text-bold">
+                    <div class="row p-2">
+                      <div class="col-6 text-capitalize">total internet:</div>
+                      <div class="col-6"><span>2000</span> <sup>MB</sup></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-12 col-lg-4">
+                <div class="card text-center p-3">
+                  <h3 class="card-title text-capitalize">calls</h3>
+                  <div class="content text-bold">
+                    <div class="p-2">
+                      <div class="text-capitalize">hadra (maxy)</div>
+                      <div class="row">
+                        <div class="col text-start">unlimited to Ooredoo</div>
+                        <div class="col">
+                          <div>24h/24h</div>
+                          <div>to 01/01/2023</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calls-package">
+          <h2 class="main-title text-light text-uppercase px-3 p-2 my-3">
+            calls package
+          </h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3 justify-content-between h-100">
+                  <div class="mb-3">
+                    <div class="amount">60 mins</div>
+                    <span class="fs-5">to Ooredoo</span>
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>24 hrs</b></div>
+                    <div class="amount">50DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3 justify-content-between h-100">
+                  <div class="mb-3">
+                    <div class="amount">Unlimited calls</div>
+                    <span class="fs-5">to Ooredoo</span>
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>24 hrs</b></div>
+                    <div class="amount">100DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3 justify-content-between h-100">
+                  <div class="">
+                    <div class="amount">Unlimited calls</div>
+                    <span class="fs-5">to Ooredoo</span>
+                  </div>
+                  +
+                  <div class="mb-3">
+                    <div class="amount">15 mins</div>
+                    <span class="fs-5">to other nertworks</span>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <div>valid <b>24 hrs</b></div>
+                    <div class="amount">150DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="internet-packages">
+          <h2 class="main-title text-white text-uppercase px-3 p-2 my-3">
+            internet packages
+          </h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3">
+                  <div class="amount">50 MB</div>
+                  +
+                  <div class="mb-3">
+                    <i class="fab fa-facebook"></i>
+                    <span class="amount">
+                      <!-- <img src="imgs/" alt=""> -->
+                      unlimited
+                    </span> 
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>Until midnight</b></div>
+                    <div class="amount">50DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3">
+                  <div class="amount">700 MB</div>
+                  +
+                  <div class="mb-3">
+                    <i class="fab fa-youtube"></i>
+                    <span class="amount">
+                      <!-- <img src="imgs/" alt=""> -->
+                      unlimited
+                    </span> 
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>24 houers</b></div>
+                    <div class="amount">100DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy nou
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3">
+                  <div class="amount">3GB</div>
+                  +
+                  <div class="mb-3">
+                    <i class="fab fa-youtube"></i>
+                    <span class="amount">
+                      <!-- <img src="imgs/" alt=""> -->
+                      unlimited
+                    </span> 
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>72 houers</b></div>
+                    <div class="amount">300DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy nou
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3">
+                  <div class="amount">6GB</div>
+                  +
+                  <div class="mb-3">
+                    <span class="amount">
+                      faida coupons
+                    </span> 
+                  </div>
+                  <div class="mb-3">
+                    <div>valid for <b>30 days</b></div>
+                    <div class="amount">500DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy nou
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3">
+                  <div class="amount">15GB</div>
+                  +
+                  <div class="mb-3">
+                    <span class="amount">
+                      5GB on
+                    </span> 
+                    <i class="fab fa-youtube"></i>youtube
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>30 Days</b></div>
+                    <div class="amount">1000DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy nou
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card p-3 text-center fs-3">
+                  <div class="amount">40GB</div>
+                  +
+                  <div class="mb-3">
+                    <i class="fab fa-youtube"></i>Youtube
+                    <span class="amount">
+                      <!-- <img src="imgs/" alt=""> -->
+                      unlimited
+                    </span> 
+                  </div>
+                  <div class="mb-3">
+                    <div>valid <b>30 days</b></div>
+                    <div class="amount">1500DA</div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button class="main-btn btn btn-secondary rounded-pill w-100">
+                      <i class="fas fa-shopping-cart"></i>
+                      buy nou
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="settings position-relative" style="left: 100%;" id="settings">
+        <div class="container">
+          <div class="language">
+            <h2 class="main-title text-uppercase my-4">language</h2>
+            <div class="language-list">
+              <ul class="list-unstyled row">
+                <li class="col-sm-12 col-md-4 mb-4">
+                  <input 
+                    type="radio" 
+                    name="lang" 
+                    class="d-none" 
+                    id="AR">
+                  <div class="card p-2">
+                    <label for="AR">
+                      <span>arabic</span> <span class="amount"></span>
+                    </label>
+                  </div>
+                </li>
+                <li class="col-sm-12 col-md-4 mb-4">
+                  <input 
+                    type="radio" 
+                    name="lang" 
+                    class="d-none" 
+                    id="EN"
+                    checked>
+                  <div class="card p-2">
+                    <label for="EN">
+                      <span>English</span> <span class="amount"></span>
+                    </label>
+                  </div>
+                </li>
+                <li class="col-sm-12 col-md-4 mb-4">
+                  <input 
+                    type="radio" 
+                    name="lang" 
+                    class="d-none" 
+                    id="FR">
+                  <div class="card p-2">
+                    <label for="FR">
+                      <span>french</span> <span class="amount"></span>
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recharge">
+            <h2 class="main-title text-uppercase my-4">recharge</h2>
+            <div>
+              <ul class="list-unstyled row">
+                <li class="cl-12 col-lg-4 mb-4">
+                  <div class="card p-2">
+                    <h3>using CIB</h3>
+                    <img src="imgs/recharge-cib (1).jpg" alt="">
+                  </div>
+                </li>
+                <li class="cl-12 col-lg-4 mb-4">
+                  <div class="card p-2">
+                    <h3>using pycira</h3>
+                  </div>
+                </li>
+                <li class="cl-12 col-lg-4 mb-4">
+                  <div class="card p-2">
+                    <h3>using anauther way</h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact">
+            <h2 class="main-title text-uppercase my-4">contact us</h2>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="bootstrap-js/bootstrap.bundle.js"></script>
+    <script src="bootstrap-js/all.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
